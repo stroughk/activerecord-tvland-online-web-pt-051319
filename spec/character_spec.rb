@@ -19,14 +19,14 @@ require_relative 'spec_helper'
 #    niles = Character.new(name: "Niles Crane")
 #    niles.show = frasier
 #    niles.save
-    
+
 #    frasier.reload
 #    expect(frasier.characters).to include(niles)
 #    expect(niles.show).to eq(frasier)
 #  end
 
 #  it "has a catchphrase" do
-    
+
 #    urkel = Character.new(name: "Steve Urkel")
 ##    urkel.save
   #  expect(Character.find_by(id: urkel.id).catchphrase).to eq(urkel.catchphrase)
